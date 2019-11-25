@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 Class DBPerformance
 {
@@ -18,9 +18,9 @@ Class DBPerformance
         $this->db = new PDO('mysql:dbname=' . $dbname . ';host=' . $host, $username, $password);
     }
 
-    public function insertBenchmark()
+    public function insertBenchmark($time = 5000)
     {
-        $this->setStartTime(5000);
+        $this->setStartTime($time);
         $this->setCounter(1);
         
         while ($this->startTime - (microtime(1) * 1000) > 0) 
@@ -34,9 +34,9 @@ Class DBPerformance
         }
     }
 
-    public function selectBenchmark()
+    public function selectBenchmark($time = 5000)
     {
-        $this->setStartTime(5000);
+        $this->setStartTime($time);
         $this->setCounter(1);
         
         while ($this->startTime - (microtime(1) * 1000) > 0) 
@@ -51,9 +51,9 @@ Class DBPerformance
         }
     }
 
-    public function updateBenchmark()
+    public function updateBenchmark($time = 5000)
     {
-        $this->setStartTime(5000);
+        $this->setStartTime($time);
         $this->setCounter(1);
         
         while ($this->startTime - (microtime(1) * 1000) > 0) 
@@ -117,10 +117,10 @@ Class DBPerformance
     {
         $newTime = $sumTime / $totalTime;
         if ($newTime >= 0.001) {
-            return round($newTime * 1000) . ' MiliSecond';
+            return round($newTime * 1000) . ' MiliSaniye';
         }
 
-        return round($newTime * 1000 * 1000) . ' MicroSecond';
+        return round($newTime * 1000 * 1000) . ' MikroSaniye';
     }
 
 }
