@@ -76,7 +76,7 @@ Class DBPerformance
             {
                 $totalTime = count($times);
                 $sumTime   = array_sum($times);
-                echo date('d.m.Y H:i:s', $time) . ', &nbsp;&nbsp; Süre: ' . number_format($sumTime , 25 , "." , "") . ', &nbsp;&nbsp; R: ' . $this->getRTime($sumTime, $totalTime) . ', &nbsp;&nbsp; TPS: '. $totalTime;
+                echo date('d.m.Y H:i:s', $time) . ', &nbsp;&nbsp; Time: ' . number_format($sumTime , 25 , "." , "") . ', &nbsp;&nbsp; One Transaction Time: ' . $this->getRTime($sumTime, $totalTime) . ', &nbsp;&nbsp; TPS: '. $totalTime;
                 echo '<br>';
             }
         }
