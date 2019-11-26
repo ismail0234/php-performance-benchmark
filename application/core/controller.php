@@ -153,7 +153,6 @@ Class MainController
 			case 'language':
 				
 				$language = $this->utility->getLanguage();
-				$language = 'en';
 				if (!file_exists(LANG_PATH . $language . '/' . $libraryName . '.php')) {
 					throw new Exception("Cannot Load Language File!");
 				}
