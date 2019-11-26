@@ -1,10 +1,10 @@
 <?php
 
 return array(
-	'phpbenchmark'                  => 'PHP Performans Testi',
+	'phpbenchmark'                  => 'BB PHP Performans Testi',
 	'information'                   => 'Hakkında',
 	'uptoHead'                      => 'En Başa Dön.',
-	'copyright'                     => 'PHP Performans Testi projesinin tüm telif hakları Ismail Satilmiş\'a aittir.',
+	'copyright'                     => 'BB PHP Performans Testi projesinin tüm telif hakları Ismail Satilmiş\'a aittir.',
 	'suggestion'                    => 'İstediğin bir özellik veya sorun mu var? <a href="https://github.com/ismail0234/php-performance-benchmark">Hemen ziyaret et!</a>',
 	'informationdescription'        => 'PHP Performans Testi ile sunucunuz üzerinde ne kadar verim alabileceğinizi ölçebilir ve buna göre kendiniz optimizasyonlar yapabilirsiniz.',
 	'contact'                       => 'İletişim',
@@ -16,7 +16,7 @@ return array(
 	'benchmarkDescriptionCompleted' => '<span class="maxBenchmarkNumber font-weight-middle text-white">0</span> adet benchmark testinden <span class="completedBenchmark text-success-light font-weight-middle">0</span> tanesi tamamlandı.',
 	'phpversion'                    => 'PHP Versiyon:',
 	'mysqlversion'                  => 'MYSQL Versiyon:',
-	'benchmarkVersion'              => 'Benchmark Versiyon:',
+	'benchmarkVersion'              => 'BB Benchmark Versiyon:',
 	'notconnected'                  => 'Bağlantı kurulamadı.',
 	'showAll'                       => 'Hepsini göster',
 	'all'                           => 'Hepsi',

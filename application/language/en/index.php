@@ -1,10 +1,10 @@
 <?php
 
 return array(
-	'phpbenchmark'                  => 'PHP Performance Benchmark',
+	'phpbenchmark'                  => 'BB PHP Performance Benchmark',
 	'information'                   => 'About',
 	'uptoHead'                      => 'Back to Top.',
-	'copyright'                     => 'All copyrights of the PHP Performance Test project belong to Ismail Satilmiş.',
+	'copyright'                     => 'All copyrights of the BB PHP Performance Test project belong to Ismail Satilmiş.',
 	'suggestion'                    => 'Is there a feature or problem you want? <a href="https://github.com/ismail0234/php-performance-benchmark">Visit now!</a>',
 	'informationdescription'        => 'With PHP Performance Test, you can measure how much efficiency you can get on your server and make your own optimizations accordingly.',
 	'contact'                       => 'Contact',
@@ -16,7 +16,7 @@ return array(
 	'benchmarkDescriptionCompleted' => '<span class="completedBenchmark text-success-light font-weight-middle">0</span> of <span class="maxBenchmarkNumber font-weight-middle text-white">0</span> benchmark tests were completed',
 	'phpversion'                    => 'PHP Version:',
 	'mysqlversion'                  => 'MYSQL Version:',
-	'benchmarkVersion'              => 'Benchmark Version:',
+	'benchmarkVersion'              => 'BB Benchmark Version:',
 	'notconnected'                  => 'Connection could not be established',
 	'showAll'                       => 'Show all of them',
 	'all'                           => 'All',
