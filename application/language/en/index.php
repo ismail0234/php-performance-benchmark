@@ -1,0 +1,35 @@
+<?php
+
+return array(
+	'phpbenchmark'                  => 'PHP Performance Benchmark',
+	'information'                   => 'About',
+	'uptoHead'                      => 'Back to Top.',
+	'copyright'                     => 'All copyrights of the PHP Performance Test project belong to Ismail Satilmiş.',
+	'suggestion'                    => 'Is there a feature or problem you want? <a href="https://github.com/ismail0234/php-performance-benchmark">Visit now!</a>',
+	'informationdescription'        => 'With PHP Performance Test, you can measure how much efficiency you can get on your server and make your own optimizations accordingly.',
+	'contact'                       => 'Contact',
+	'github'                        => 'Github',
+	'website'                       => 'Website',
+	'benchmark'                     => 'Benchmark',
+	'benchmarkStart'                => 'Start Test',
+	'benchmarkDescriptionReady'     => '<span class="maxBenchmarkNumber">0</span> amount benchmark tests are ready to run.',
+	'benchmarkDescriptionCompleted' => '<span class="completedBenchmark text-success-light font-weight-middle">0</span> of <span class="maxBenchmarkNumber font-weight-middle text-white">0</span> benchmark tests were completed',
+	'phpversion'                    => 'PHP Version:',
+	'mysqlversion'                  => 'MYSQL Version:',
+	'benchmarkVersion'              => 'Benchmark Version:',
+	'notconnected'                  => 'Connection could not be established',
+	'showAll'                       => 'Show all of them',
+	'all'                           => 'All',
+	'benchmarkStartWarning'         => 'To see the results, you need to start the test!',
+	'benchmarkProcessing'           => 'Benchmark testing progressing...',
+	'benchmarkAddedQueue'           => 'Adding Queue for Benchmark. Please Wait.',
+	'workDone'						=> 'Work done in 1 second:',
+	'workAmountDone'				=> '1 pcs business time:',
+	'benchmarkString'               => 'String',
+	'benchmarkLoops'                => 'Loops',
+	'benchmarkConditions'           => 'Conditions',
+	'benchmarkMath'                 => 'Math',
+	'benchmarkDatabasae'            => 'Database',	
+);
+
+
