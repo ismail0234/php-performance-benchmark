@@ -7,7 +7,7 @@
  * @author Ismail Satilmis <ismaiil_0234@hotmail.com>
  *
  */
-define('SYSTEM_VERSION', 'v1.0.0');
+define('SYSTEM_VERSION', 'v2.0.0');
 
 /**
  *
