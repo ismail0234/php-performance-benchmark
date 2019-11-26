@@ -21,4 +21,4 @@ Eğer kendi dilinizi göremiyor ve eklenmesini istiyorsanız ozaman [buradan](ht
 
 #### İngilizce(English)
 
-If you cannot see your own language and want it to be added, then you can [here] (https://github.com/ismail0234/php-performance-benchmark/blob/master/application/language/) create the folder with the abbreviation code for your language and translate the languages in the tr or en folder.
+If you cannot see your own language and want it to be added, then you can [here](https://github.com/ismail0234/php-performance-benchmark/blob/master/application/language/) create the folder with the abbreviation code for your language and translate the languages in the tr or en folder.
