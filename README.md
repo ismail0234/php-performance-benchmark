@@ -8,6 +8,11 @@ Bu proje ücretsiz ve açık kaynak olarak dağıtılmıştır. Aşağıda yer a
 
 This project was distributed free and open source. You can follow the document installation and usage instructions in the port. If you like this project, you can leave a star because we can.
 
+
+## Patron Olun ve Beni Destekleyin!
+
+Yaptığım işlerden memnun iseniz, beni patreon üzerinde desteleyebilirsiniz: https://www.patreon.com/botbenson/
+
 ### Dökümanlar(Documents)
 
 * [Türkçe Döküman(Turkish Document)](https://github.com/ismail0234/php-performance-benchmark/blob/master/documents/TR.md)
