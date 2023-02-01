@@ -43,13 +43,39 @@ Class Utility
 	 */
 	public function getLink()
 	{
-
 		$http = 'https';
-		if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
+		if (!$this->isSslActive()) 
+		{
 			$http = 'http';
 		}
 
 		return sprintf('%s://%s%s', $http, $_SERVER['HTTP_HOST'], str_replace('index.php', '', $_SERVER['SCRIPT_NAME']));
+	}
+
+	/**
+	 *
+	 * Ssl kontrolü
+	 *
+	 * @author Ismail Satilmis <ismaiil_0234@hotmail.com>
+	 * @return string 
+	 *
+	 */
+	public function isSslActive() 
+	{
+	  	if (isset($_SERVER['HTTP_CF_VISITOR'])) 
+	  	{
+	    	$cf_visitor = json_decode($_SERVER['HTTP_CF_VISITOR']);
+	    	if (isset($cf_visitor->scheme) && $cf_visitor->scheme == 'https') 
+	    	{
+	      		return true;
+	    	}
+	  	} 
+	  	else if (isset($_SERVER['HTTPS'])) 
+	  	{
+	    	return true;
+	  	}
+
+	  	return false;
 	}
 
 	/**
